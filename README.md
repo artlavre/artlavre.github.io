@@ -3,4 +3,4 @@
 
 2. Як додати файли до репозиторію? <br>
 Натиснути кнопку Upload files, вибрати потрібні файли і натиснути *Commit changes* для того, щоб прийняти зміни.
-<p><a href="https://artlavre.github.io/message%20(1)">Проект_Реэстрація</a></p>
+<p><a href="https://artlavre.github.io/message%20(1)">Проект_Реєстрація</a></p>
