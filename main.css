@@ -630,6 +630,7 @@
         border-top-left-radius: 15px;
         border-bottom-right-radius: 15px;
         cursor: pointer;
+        z-index: 100;
     }
     .cookie_button:hover{
         background: #FFBE48;
