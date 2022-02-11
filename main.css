@@ -960,34 +960,7 @@
         bottom: -200px;
         z-index: 0;
     }
-    .back-img{
-        position: absolute;
-        margin-left: -30px;
-        margin-top: -100px;
-        filter: opacity(0.7);
-        z-index: 0;
-    }
-    @media(max-width:1557px){
-        .back-img{
-        height: 650px;
-        width: 1557px;
-        margin-top: -120px;
-    }
-    }
-    @media(max-width:1178px){
-        .back-img{
-        height: 670px;
-        width: 1178px;
-        margin-top: -120px;
-    }
-    }
-    @media(max-width:800px){
-        .back-img{
-        height: 1050px;
-        width: 800px;
-        margin-top: -170px;
-    }
-    }
+    
     /*------------------------------*/
     /*-----FOOTER-------------------*/
     .footer{
