@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Commissioner:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+    <title>Верстка</title>
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+
+<body onload="displayCart()">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container _container">
+                <a href="" class="header__logo"><img src="Site/wezom_logo 1.svg"></a>
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="" class="menu__link">О Компании</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Политика конфиденциальности</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Доставка и оплата</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Гарантия</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="custom__select">
+                    <select>
+                        <option>+38 068 000 00 00</option>
+                        <option>+38 066 000 00 00</option>
+                    </select>
+                    <span class="custom-arrow"></span>
+                </div>
+                    <ul class="header__lang">
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Ua</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Ru</a>
+                        </li>
+                    </ul>
+                <div class="log__in">Войти </div><span><img src="Site/Log_in.svg" alt=""></span>
+                
+            </div>
+            <div class = "header__magazine _container">
+                    <div class= "container">
+                        <button class="header__catalog"><span class="catalog__lines"></span> каталог <p class="catalog__text">Все категории</p> </button>
+                            <div class= "list">
+                                <button class="links"><div class = "links_hover"><img class="list__img" src="Site/power.svg">       <p class="links__text"> Турбины</p>  <span class="arrow"></span> </div></button>
+                                <button class="links"><div class = "links_hover"><img class="list__img" src="Site/cartridge.svg">   <p class="links__text">Картриджи  </p> <span class="arrow"></span> </div></button>
+                                <button class="links"><div class = "links_hover"><img class="list__img" src="Site/geometry.svg">    <p class="links__text">Геометрии </p> <span class="arrow"></span> </div></button>
+                                <button class="links"><div class = "links_hover"><img class="list__img" src="Site/aktuator.svg">    <p class="links__text">Актуаторы </p> <span class="arrow"></span> </div></button>
+                                <button class="links"><div class = "links_hover"><img class="list__img" src="Site/servoprivod.svg"> <p class="links__text">Сервоприводы </p> <span class="arrow"></span> </div></button>
+                                <button class="links"><div class = "links_hover"><img class="list__img" src="Site/prokladki.svg">   <p class="links__text">Прокладки </p> <span class="arrow"></span> </div></button>
+                                <button class="links"><div class = "links_hover"><img class="list__img" src="Site/zap4asti.svg">    <p class="links__text">Прочие запчасти </p> <span class="arrow"></span> </div></button>
+                                <button class="links"><div class = "links_hover"><img class="list__img" src="Site/electro-aktuator.svg"> <p class="links__text">Электронновакуумные  <br> актуаторы </p><span class="arrow"></span> </div></button>
+                                <button class="links"><div class = "links_hover"><img class="list__img" src="Site/body-tourbine.svg">     <p class="links__text">Корпуса турбины </p> <span class="arrow"></span> </div></button>
+                                <button class="links"><div class = "links_hover"><img class="list__img" src="Site/zap4asti2.svg">   <p class="links__text"> Запчасти для сервопривода </p> <span class="arrow"></span> </div></button>
+                            </div>
+                    </div>
+
+               <div class="header__input"><input id="icon" class="search_txt" type="text" name="" placeholder="Поиск, например &#34турбина&#34"> </div> 
+               <div class="header__product">
+                   <div class="element"><img  src="Site/Сравнить.svg" alt="Весы"></div>
+                   <div class="element"><img  src="Site/Heart.svg" alt="Весы"></div>
+                   <button class="element basket"> <img  src="Site/КорзинаХєдер.svg" alt="Весы"><span class="product__number">0</span>
+                    <div class= "list__tooltip">
+                        <div class="tooltip">
+                            <div class="sum" >В корзине <span class="total_in_cart">0</span></div>
+                            <div class="sum" href="#"> На сумму <span class="total__cost">0</span></div>
+                            <a href="#"><div class="order">Оформить заказ <img class="basket__tooltip" src="Site/КорзинаХєдер.svg" alt=""></div></a>
+                            <a class="edit__order" href="#">Редактировать заказ </a>
+                        </div>
+                        
+                    </div>
+                    </button>
+                </div>
+                
+            </div>
+        </header>
+
+        <main class="page">
+            <div class="page__main-block main block">
+                <div class="main-block__container _container-main">
+                    <div class="main-block__body">
+                        <h1 class="main-block__title _container">Популярные категории <a href="#" class="main-block__button">ВСЕ КАТЕГОРИИ</a> </h1>
+                        <span class="dot"></span>
+                        <span class="dot_bg"></span>
+                        <div class="main-block__links">
+                            <div class="link__link">
+                                <a href="#">
+                                    <img id="icon" src="Site/Косметика.svg" alt="Category-makeup"> <div class="link__title">Косметика и гигиена</div>
+                                    <span class="circle"><img src="Site/Ellipse 31.png" alt=""></span>
+                                </a>
+                            </div>
+                            <div class="link__link">
+                                <a href="#">
+                                    <img class="link__image" src="Site/Электроника.svg" alt="Category-technic"> 
+                                    
+                                    <div class="link__title">Техника и электроника</div>
+                                    <span class="circle"><img src="Site/Ellipse 31.png" alt=""></span>
+                                </a>
+                            </div>
+                            <div class="link__link">
+                                <a href="#">
+                                    <img class="link__image" src="Site/Повседневная одежда.svg" alt="Category-EverydayCloth"> <div class="link__title">Повседневная одежда</div>
+                                    <span class="circle"><img src="Site/Ellipse 31.png" alt=""></span>
+                                </a>
+                            </div>
+                            <div class="link__link">
+                                    <a href="#">
+                                    <img class="link__image" src="Site/Одежда.svg" alt="Category-EverydayCloth">
+                                    <div class="link__title">Одежда и обувь</div>
+                                    <span class="circle"><img src="Site/Ellipse 31.png" alt=""></span>
+                                    </a>
+                            </div>
+                            <div class="link__link">
+                                    <a href="#">
+                                    <img class="link__image" src="Site/Сапоги.svg" alt="Category-EverydayCloth">
+                                    <div class="link__title">Сапоги и туфли </div>
+                                    <span class="circle"><img src="Site/Ellipse 31.png" alt=""></span>
+                                    </a>
+                            </div>
+                            <div class="link__link">
+                                <a href="#">
+                                    <img class="link__image" src="Site/Универсальное.svg" alt="Category-EverydayCloth"> <div class="link__title">Универсальное</div>
+                                    <span class="circle"><img src="Site/Ellipse 31.png" alt=""></span>
+                                </a>
+                            </div>
+                            <div class="link__link">
+                                <a href="#">
+                                    <img class="link__image" src="Site/Спорт обувь.svg" alt="Category-EverydayCloth"> <div class="link__title">Спортивная обувь </div>
+                                    <span class="circle"><img src="Site/Ellipse 31.png" alt=""></span>
+                                </a>
+                            </div>
+                            <div class="link__link">
+                                <a href="#">
+                                    <img class="link__image" src="Site/Нижнее белье.svg" alt="Category-EverydayCloth"> <div class="link__title">Нижнее бельё</div>
+                                    <span class="circle"><img src="Site/Ellipse 31.png" alt=""></span>
+                                </a>
+                            </div>
+                            <div class="link__link">
+                                <a href="#">
+                                    <img class="link__image" src="Site/Сумки.svg" alt="Category-EverydayCloth"> <div class="link__title">Сумки и кошельки</div>
+                                    <span class="circle"><img src="Site/Ellipse 31.png" alt=""></span>
+                                </a>
+                            </div>
+                            <div class="link__link">
+                                <a href="#">
+                                    <img class="link__image" src="Site/Туфли.svg" alt="Category-EverydayCloth"> <div class="link__title">Сапоги и туфли </div>
+                                    <span class="circle"><img src="Site/Ellipse 31.png" alt=""></span>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="main-body__text">Тут должен быть какой то  текст, потом <br> придумаем какой точно будет =)</div>
+
+                    <div class="main-body__button-phone">
+                        <img class="red_vector" src="Site/Red_Vector.svg" alt="">
+                        <img class="vector"src="Site/fluid-linear-pop-product.png" alt="">
+                        <a href="#" class="button-phone">ЗАКАЗАТЬ ОБРАТНУЮ СВЯЗЬ <span class="icon-arrow"></span></a>
+                    </div>
+                    <img class="back-img"src="Site/Rectangle.png" alt="">
+                    <div id="main-block-card" class="main-block__cards">
+                        
+                        <div class="main-block__card active" onclick="pickCard(this);">Текст карточки первый <div class="timer"> <span class="clock"> <img src="Site/clock1.svg" alt="Clock"></span> - 15 min</div> </div>
+                        <div class="main-block__card" onclick="pickCard(this);">Текст карточки второй <div class="timer"> <span class="clock"> <img src="Site/clock1.svg" alt="Clock"></span> - 20 min</div> </div>
+                        
+                        <div class="main-block__card" onclick="pickCard(this);">Текст карточки третьей <div class="timer"> <span class="clock"> <img src="Site/clock1.svg" alt="Clock"></span> - 11 min</div> </div>
+                        <div class="main-block__card" onclick="pickCard(this);">Текст карточки четвертой <div class="timer"> <span class="clock"> <img src="Site/clock1.svg" alt="Clock"></span> - 9 min</div> </div>
+                        
+                    </div>
+                    
+
+                    <div class="main-body__gallery _container-main">
+
+                        <div class="gallery__item">
+                           <a href="#" >
+                                <img src="Site/Снаряжение.png" alt="Снаряжение">
+                                <button class="gallery__button">СНАРЯЖЕНИЕ</button>
+                            </a>
+                        </div>
+                        <div class="gallery__item--2">
+                            <a href="#" >
+                            <img class="image" src="Site/Ножи.svg" alt="Ножи">
+                            <button class="gallery__button">НОЖИ И ИНСТРУМЕНТЫ</button>
+                            </a>
+                        </div>
+                        
+                        <div class="gallery__item--3">
+                            <a href="#" >
+                            <img src="Site/Оружие.svg" alt="Оружие">
+                            <button class="gallery__button">ОРУЖИЕ</button>
+                            </a>
+                        </div>
+
+                        <div class="gallery__item _gallery4">
+                            <a href="#" >
+                            <img src="Site/Патроны.svg" alt="Патроны">
+                            <button class="gallery__button">ПАТРОНЫ</button>
+                            </a>
+                        </div>
+
+                        <div class="gallery__item _gallery5">
+                            <a href="#" >
+                            <img src="Site/Аксесуары.svg" alt="Аксессуары">
+                            <button class="gallery__button">АКСЕССУАРЫ</button>
+                            </a>
+                        </div>
+
+                        <div class="gallery__item--6">
+                            <a href="#" >
+                            <img src="Site/Тир.svg" alt="Тир">
+                            <button class="gallery__button">ТИР</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <section class="section-slider">
+                        <div class="slider">
+                            <div class="img-slider">
+                                <img  src="Site/Ружье.svg" alt="Ружье">
+                                <span class="gift-box"><img src="Site/gift-box (1) 1.svg" alt="gift-box"></span>
+                                <p class="text-slider"> Ружье Mossberg 590M Mag-Fed  </p>
+                                <span class="stars"><img src="Site/Stars.svg" alt=""> <span class="rewiew">10 отзывов</span> </span>
+                                <p class="price-sell"> 32 509₴ </p>
+                                <p class="price-slider"> 27 632.65₴ </p>
+                                <span class="add-cart"><img src="Site/Корзина.svg" alt=""><div>купить</div></span>
+                                <span class="slider__new">НОВИНКА</span>
+                                <span class="wish"><img src="Site/wish.svg" alt="wish"></span>
+                                <span class="compare"><img src="Site/compare.svg" alt="compare"></span>
+                                <span class="play"><img src="Site/play-button 1.svg" alt="play"></span>
+                            </div>
+                            <div class="img-slider">
+                                <img  src="Site/Ружье.svg" alt="Ружье">
+                                <span class="gift-box"><img src="Site/gift-box (1) 1.svg" alt=""></span>
+                                <p class="text-slider"> Ружье Mossberg 590M Mag-Fed к.12 18.5" Synthetic </p>
+                                <span class="stars"><img src="Site/Stars.svg" alt=""> <span class="rewiew">5 отзывов</span> </span>
+                                <p class="price-sell"> 32 509₴ </p>
+                                <p class="price-slider"> 27 632.65₴ </p>
+                                <span class="add-cart"><img src="Site/Корзина.svg" alt=""><div>купить</div></span>
+                                <span class="slider__sell">АКЦИЯ</span>
+                                <span class="wish"><img src="Site/wish.svg" alt="wish"></span>
+                                <span class="compare"><img src="Site/compare.svg" alt="compare"></span>
+                            </div>
+                            <div class="img-slider">
+                                <img  src="Site/Ружье.svg" alt="Ружье">
+                                <span class="gift-box"><img src="Site/gift-box (1) 1.svg" alt=""></span>
+                                <p class="text-slider"> Ружье Mossberg 590M Mag-Fed к.12 18.5" Synthetic </p>
+                                <span class="stars"><img src="Site/Stars.svg" alt=""> <span class="rewiew">12 отзывов</span> </span>
+                                <p class="price-no-sell"> 27 632.65₴ </p>
+                                <span class="add-cart"><img src="Site/Корзина.svg" alt=""><div>купить</div></span>
+                                <span class="slider__action">-70%</span>
+                                <span class="wish"><img src="Site/wish.svg" alt="wish"></span>
+                                <span class="compare"><img src="Site/compare.svg" alt="compare"></span>
+                            </div>
+                            <div class="img-slider">
+                                <img  src="Site/Ружье.svg" alt="Ружье">
+                                <span class="gift-box"><img src="Site/gift-box (1) 1.svg" alt=""></span>
+                                <p class="text-slider"> Ружье Mossberg 590M Mag-Fed к.12 18.5" Synthetic </p>
+                                <span class="stars"><img src="Site/Stars.svg" alt=""> <span class="rewiew">5 отзывов</span> </span>
+                                <p class="price-sell"> 32 509₴ </p>
+                                <p class="price-slider"> 27 632.65₴ </p>
+                                <span class="add-cart"><img src="Site/Корзина.svg" alt=""><div>купить</div></span>>
+                                <span class="slider__top">ТОП ПРОДАЖ</span>
+                                <span class="wish"><img src="Site/wish.svg" alt="wish"></span>
+                                <span class="compare"><img src="Site/compare.svg" alt="compare"></span>
+                                <span class="play"><img src="Site/play-button 1.svg" alt="play"></span>
+                            </div>
+                            <div class="img-slider">
+                                <img  src="Site/Ружье.svg" alt="Ружье">
+                                <span class="gift-box"><img src="Site/gift-box (1) 1.svg" alt=""></span>
+                                <p class="text-slider"> Ружье Mossberg 590M Mag-Fed к.12 18.5" Synthetic </p>
+                                <span class="stars"><img src="Site/Stars.svg" alt=""> <span class="rewiew">5 отзывов</span> </span>
+                                <p class="price-no-sell"> 27 632.65₴ </p>
+                                <span class="add-cart"><img src="Site/Корзина.svg" alt=""><div>купить</div></span>
+                                <span class="wish"><img src="Site/wish.svg" alt="wish"></span>
+                                <span class="compare"><img src="Site/compare.svg" alt="compare"></span>
+                            </div>
+                            <div class="img-slider">
+                                <img  src="Site/Ружье.svg" alt="Ружье">
+                                <span class="gift-box"><img src="Site/gift-box (1) 1.svg" alt=""></span>
+                                <p class="text-slider"> Ружье Mossberg 590M Mag-Fed к.12 18.5"  </p>
+                                <span class="stars"><img src="Site/Stars.svg" alt=""> <span class="rewiew">5 отзывов</span> </span>
+                                <p class="price-sell"> 32 509₴ </p>
+                                <p class="price-slider"> 27 632.65₴ </p>
+                                <span class="add-cart"><img src="Site/Корзина.svg" alt=""><div>купить</div></span>
+                                <span class="wish"><img src="Site/wish.svg" alt="wish"></span>
+                                <span class="compare"><img src="Site/compare.svg" alt="compare"></span>
+                            </div>
+                            <div class="img-slider">
+                                <img  src="Site/Ружье.svg" alt="Ружье">
+                                <span class="gift-box"><img src="Site/gift-box (1) 1.svg" alt=""></span>
+                                <p class="text-slider"> Ружье Mossberg 590M Mag-Fed </p>
+                                <span class="stars"><img src="Site/Stars.svg" alt=""> <span class="rewiew">5 отзывов</span> </span>
+                                <p class="price-no-sell"> 27 632.65₴ </p>
+                                <span class="add-cart"><img src="Site/Корзина.svg" alt=""><div>купить</div></span>
+                                <span class="wish"><img src="Site/wish.svg" alt="wish"></span>
+                                <span class="compare"><img src="Site/compare.svg" alt="compare"></span>
+                            </div>
+                            <div class="img-slider">
+                                <img  src="Site/Ружье.svg" alt="Ружье">
+                                <span class="gift-box"><img src="Site/gift-box (1) 1.svg" alt=""></span>
+                                <p class="text-slider"> Ружье Mossberg 590M Mag-Fed к.12 18.5" Synthetic </p>
+                                <span class="stars"><img src="Site/Stars.svg" alt=""> <span class="rewiew">12 отзывов</span> </span>
+                                <p class="price-no-sell"> 27 632.65₴ </p>
+                                <span class="add-cart"><img src="Site/Корзина.svg" alt=""><div>купить</div></span>
+                                <span class="wish"><img src="Site/wish.svg" alt="wish"></span>
+                                <span class="compare"><img src="Site/compare.svg" alt="compare"></span>
+                            </div>
+                        </div>
+
+                    </section>
+                </div>
+                
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <div class = "row"> 
+                <div class="col"> 
+                    <a href = "#" > <img src="Site/wezom_logo 2.svg" alt=""></a>
+                       <p class="footer__icons">
+                           <a href="#" class="footer__links"> <img src="Site/Insta.svg" alt="Instagram"></a>
+                           <a href="#" class="footer__links"> <img src="Site/Facebook.svg" alt="Facebook"></a>
+                           <a href="#" class="footer__links"> <img src="Site/Twitter.svg" alt="Twitter"></a>
+                           <a href="#" class="footer__links"> <img src="Site/Youtube.svg" alt="Youtube"></a>
+                       </p> 
+                       <p class="footer__icons">
+                        <a href="#" class="footer__cards"> <img src="Site/Новапошта.svg" alt="Visa"></a>
+                        <a href="#" class="footer__cards"> <img src="Site/Visa.svg" alt="Visa"></a>
+                        <a href="#" class="footer__cards"> <img src="Site/MasterCArd.svg" alt="MasterCard"></a>
+                        <a href="#" class="footer__cards"> <img src="Site/MasterPro.svg " alt="Maesrto"></a>
+                        <a href="#" class="footer__cards"> <img src="Site/Visa.svg" alt="PayPal"></a>
+                    </p> 
+                </div>
+                <div class="col"> 
+                    <h3>Каталог</h3>
+                    <p class="text"><a href="#" class="footer__text">Ноутбуки</a></p>    
+                    <p class="text"><a href="#" class="footer__text">Планшеты</a></p>
+                    <p class="text"><a href="#" class="footer__text">Аксессуары для планшетов и электронных книг</a></p>
+                    <p class="text"><a href="#" class="footer__text">Кабели и переходники</a></p>
+                    <p class="text"><a href="#" class="footer__text">Сумки для ноутбуков</a></p>
+                    <p class="text"><a href="#" class="footer__text">Автотовары</a></p>
+                    <p class="text"><a href="#" class="footer__text">Сантехника</a> </p>
+                    <p class="text"><a href="#" class="footer__text">Ремонт</a> </p>
+                </div>
+                <div class="col"> 
+                    <h3>Клиентам</h3>
+                    <p class="text"><a href="#" class="footer__text">Политика конфиденциальности</a></p>
+                    <p class="text"><a href="#" class="footer__text">Доставка и оплата</a></p>
+                    <p class="text"><a href="#" class="footer__text">Способы оплаты</a></p>
+                    <p class="text"><a href="#" class="footer__text">Гарантия</a></p>
+                    <p class="text"><a href="#" class="footer__text">Регенерация турбины</a></p>
+                    <p class="text"><a href="#" class="footer__text">Контакты</a></p>
+                </div>
+                <div class="col"> 
+                    <h3>Горячая линия</h3>
+                    <p class="footer__phone _big">0 800 000 000</p>
+                    <p class="footer__phone">+38 068 000 00 00</p>
+                    <p class="footer__phone">+38 099 000 00 00</p>
+                    <p class="footer__phone">+38 096 000 00 00</p>
+                </div>
+                <div class="col"> 
+                    <div class="scroll-to-top" onclick="scrollToTop();"></div>
+                    <p>Вверх</p>
+                </div>
+            </div>
+        </footer>
+
+        <div class="cookie_container">
+            <p>
+                Этот сайт использует файлы cookies для более комфортной работы пользователя. Продолжая просмотр страниц сайта, вы соглашаетесь с использованием файлов cookies. Если вам нужна дополнительная информация или вы не хотите соглашаться с использованием cookies, пожалуйста, посетите страницу "<a href="#" class="cookie">Про cookies</a>"
+            </p>
+            <button class="cookie_button">Согласен</button>
+        </div>
+    </div>   
+    <script src="Slider.js"></script>
+    <script src="main.js"></script>
+    <script>
+
+        let click = document.querySelector('.header__catalog');
+
+        let list = document.querySelector('.list');
+
+        click.addEventListener("click",()=>{
+
+            list.classList.toggle('newlist');
+
+        });
+
+        let click1 = document.querySelector('.basket');
+
+        let list1 = document.querySelector('.list__tooltip');
+
+        click1.addEventListener("click",()=>{
+
+            click1.classList.toggle('basket1');
+            list1.classList.toggle('newlist1');
+
+
+            });
+
+    </script>
+</body>
+</html>
