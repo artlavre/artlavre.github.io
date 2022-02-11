@@ -614,6 +614,7 @@
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
         transition: 400ms;
+        z-index: 100;
     }
     .cookie_container.active{
         bottom: 0;
