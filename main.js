@@ -138,7 +138,7 @@ function cartNumbers(product){
         document.querySelector('.header__product span').textContent = 1;
     }
 
-    setItems(product)
+    setItems(product);
 }
 
 function setItems(product){
@@ -170,8 +170,6 @@ function totalCost(product){
     let cartCost = localStorage.getItem('totalCost');
     
     console.log("My cartCost is", cartCost);
-
-    cartCost = parseInt(cartCost);
 
     if(cartCost != null){
         cartCost = parseInt(cartCost);
